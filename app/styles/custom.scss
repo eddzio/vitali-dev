@@ -1,15 +1,60 @@
 // custom styles
 // Entries on this file overwrite main.scss
 
+// VARIABLES
+$green-main: #4DB6AC;
+
+
 * {
-	font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+	font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif, Arial;
 	margin: 0;
 	padding: 0;
 }
 
-.s1 {
-	color: white;
-	background-image: url("https://unsplash.com/photos/7INv-0bcyZs");
-	background-size: cover;
+
+// for section headers (s classes)
+h1 {
+	font-weight: 900;
+	color: $green-main;
+	font-size: 4rem;
+}
+
+h2 {
+}
+
+// for numbers
+h3 {
+	color: $green-main;
+	font-weight: 300;
+	font-size: 4rem;
+	opacity: 0.6;
+}
+
+.jumbotron {
+	border-radius: 0;
+	margin: 0;
 	height: 100vh;
 }
+// –––––––––––––––––––S1
+.s1 {
+	color: white;
+	background-image: url("../images/pool.jpg");
+	background-size: cover;
+	position: relative;
+	.text-container {
+		position: absolute;
+		bottom: 30%;
+	}
+}
+
+.s2 {
+		background-color: #f2f2f2;
+    background: url(../images/waves.svg) no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    .fact {
+			margin-top: 10%;
+    }
+}
+
+

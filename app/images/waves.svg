@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="324px" viewBox="0 0 1440 324" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#6CF6DA" offset="0%"></stop>
+            <stop stop-color="#176DA0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.392663043">
+        <g id="Vitali-home-4" transform="translate(0.000000, -1276.000000)" fill="url(#linearGradient-1)">
+            <g id="Group" transform="translate(0.000000, 1276.000000)">
+                <path d="M0,76.7122992 C0,76.7122992 8.92472161,6.14376635e-14 135.545986,0 C262.16725,-5.0929994e-14 319.992485,122.664713 456.762674,122.664713 C593.532863,122.664713 613.321696,42.0937842 782.962656,48.4712024 C952.603617,54.8486206 1141,324 1141,324 L0,324 L0,76.7122992 Z" id="Rectangle-2" style="mix-blend-mode: multiply;"></path>
+                <path d="M173,158.378299 C173,158.378299 182.910274,107 323.514254,107 C464.118235,107 528.329078,189.15507 680.202724,189.15507 C832.076369,189.15507 854.050472,135.192442 1042.42479,139.463737 C1230.79911,143.735033 1440,324 1440,324 L173,324 L173,158.378299 Z" id="Rectangle-2" style="mix-blend-mode: multiply;" transform="translate(806.500000, 215.500000) scale(-1, 1) translate(-806.500000, -215.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
