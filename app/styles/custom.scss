@@ -20,14 +20,21 @@ h1 {
 }
 
 h2 {
+	color: white;
+	font-size: 3rem;
+	font-weight: 900;
 }
 
 // for numbers
 h3 {
 	color: $green-main;
 	font-weight: 300;
-	font-size: 4rem;
+	font-size: 6rem;
 	opacity: 0.6;
+}
+
+h4 {
+	font-weight: 300;
 }
 
 .jumbotron {
@@ -43,18 +50,47 @@ h3 {
 	position: relative;
 	.text-container {
 		position: absolute;
-		bottom: 30%;
+		bottom: 45%;
 	}
 }
 
+// –––––––––––––––––––S2
 .s2 {
 		background-color: #f2f2f2;
     background: url(../images/waves.svg) no-repeat;
     background-position: bottom;
     background-size: contain;
+    position: relative;
     .fact {
 			margin-top: 10%;
     }
+    .source {
+    	position: absolute;
+    	bottom: 1rem;
+    	opacity: 0.6;
+    }
 }
+
+// –––––––––––––––––––S3
+.s3 {
+	background: url("../images/cartagena.jpg");
+	background-size: cover;
+	position: relative;
+	.container-fluid {
+		position: relative;
+		top: 20%;
+	}
+	.quotes {
+		border-radius: 2px;
+		display: inline-block;
+		width: 600px;
+		padding: 1rem;
+		box-sizing: border-box;
+		background-color: rgba(242,242,242, 0.8);
+		color: black;
+		float: left;
+	}
+}
+
 
 
