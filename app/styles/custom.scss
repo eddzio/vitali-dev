@@ -1,0 +1,15 @@
+// custom styles
+// Entries on this file overwrite main.scss
+
+* {
+	font-family: "Helvetica Neue", Helvetica, sans-serif, Arial;
+	margin: 0;
+	padding: 0;
+}
+
+.s1 {
+	color: white;
+	background-image: url("https://unsplash.com/photos/7INv-0bcyZs");
+	background-size: cover;
+	height: 100vh;
+}
