@@ -3,6 +3,10 @@
 
 // VARIABLES
 $green-main: #4DB6AC;
+$font-size: 18px;
+$shadow: 0 20px 40px 0 rgba(0,0,0,0.24);
+
+
 
 
 * {
@@ -35,7 +39,22 @@ h3 {
 
 h4 {
 	font-weight: 300;
+	color: white;
 }
+
+// squares 
+strong {
+	font-weight: 900;
+}
+h5 {
+	font-weight: 300;
+}
+// squares ^^
+
+p {
+	font-size: $font-size;
+}
+
 
 .jumbotron {
 	border-radius: 0;
@@ -45,7 +64,7 @@ h4 {
 // –––––––––––––––––––S1
 .s1 {
 	color: white;
-	background-image: url("../images/pool.jpg");
+	background: url("../images/pool.jpg") center;
 	background-size: cover;
 	position: relative;
 	.text-container {
@@ -73,7 +92,7 @@ h4 {
 
 // –––––––––––––––––––S3
 .s3 {
-	background: url("../images/cartagena.jpg");
+	background: url("../images/cartagena.jpg") center;
 	background-size: cover;
 	position: relative;
 	.container-fluid {
@@ -91,6 +110,94 @@ h4 {
 		float: left;
 	}
 }
+
+////////////////////// SQUARES
+.square {
+	height: 220px;
+	margin-top: 4rem;
+	box-shadow: $shadow;
+	position: relative;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 15px;
+	color: white;
+	.square-text {
+		position: absolute;
+		bottom: 10px;
+		text-shadow: 0 0 20px #000000 !important;
+		letter-spacing: 1px;
+	}
+}
+
+
+#dental {
+	background: url("../images/dental.jpg");
+	background-size: cover;
+}
+#weight {
+	background: url("../images/pineapple.jpg");
+	background-size: cover;
+}
+#plastic {
+	background: url("../images/relax.jpg");
+	background-size: cover;
+}
+#transportation {
+	background: url("../images/car.jpg");
+	background-size: cover;
+}
+#accomodation {
+	background: url("../images/vista-mar.jpg");
+	background-size: cover;
+}
+#experiences {
+	background: url("../images/cartagena.jpg");
+	background-size: cover;
+}
+
+
+
+
+
+.s5 {
+	background-color: white;
+}
+
+.s6 {
+	background: url("../images/family.jpg") center;
+	background-size: cover;
+	position: relative;
+	h2 {
+		font-weight: 300;
+		position: absolute;
+		bottom: 15%;
+		text-align: left;
+	}
+}
+
+
+footer {
+	height: 250px;
+	background: url("../images/footer.png") center;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	.footer-text {
+		width: 40%;
+		color: white;
+		position: absolute;
+		top: 100px;
+		left: 30%;
+	}
+}
+
+
+
+
+
+
+
+
 
 
 
