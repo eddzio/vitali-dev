@@ -111,6 +111,10 @@ p {
 	}
 }
 
+.s4 {
+	height: auto;
+}
+
 ////////////////////// SQUARES
 .square {
 	height: 220px;
@@ -169,6 +173,7 @@ p {
 	position: relative;
 	h2 {
 		font-weight: 300;
+		width: 60%;
 		position: absolute;
 		bottom: 15%;
 		text-align: left;
